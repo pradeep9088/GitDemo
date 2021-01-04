@@ -212,6 +212,6 @@ public class DemiliterDemo {
         driver.switchTo().window(childId);
         driver.findElement(By.id("add-to-cart-button")).click();
         driver.findElement(By.cssSelector("#attach-sidesheet-checkout-button")).click();
-		
+		driver.close();
 	}
 }
