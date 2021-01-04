@@ -1,0 +1,11 @@
+package hashMapImplementation;
+
+public class NumberOfChar {
+	
+	@Test
+	public void find_number_of_character()
+	{
+		
+	}
+
+}

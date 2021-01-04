@@ -1,0 +1,13 @@
+package hashMapImplementation;
+
+import org.junit.Test;
+
+public class HashMapMethodsDemo {
+	
+	@Test
+	public void hashMap_methods_Implementation()
+	{
+		
+	}
+
+}

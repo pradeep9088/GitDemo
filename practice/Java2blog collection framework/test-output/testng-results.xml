@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="143" started-at="2020-12-22T06:33:00Z" finished-at="2020-12-22T06:33:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="143" started-at="2020-12-22T06:33:00Z" finished-at="2020-12-22T06:33:00Z">
+      <class name="hashMapImplementation.IteratorOfHashMap">
+        <test-method status="PASS" signature="iterationOfHashMap()[pri:0, instance:hashMapImplementation.IteratorOfHashMap@51efea79]" name="iterationOfHashMap" duration-ms="98" started-at="2020-12-22T06:33:00Z" finished-at="2020-12-22T06:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iterationOfHashMap -->
+      </class> <!-- hashMapImplementation.IteratorOfHashMap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

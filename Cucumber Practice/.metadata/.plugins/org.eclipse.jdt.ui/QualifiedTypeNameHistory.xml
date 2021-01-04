@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.And"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
+<fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
+<fullyQualifiedTypeName name="io.cucumber.junit.CucumberOptions"/>
+<fullyQualifiedTypeName name="io.cucumber.junit.Cucumber"/>
+<fullyQualifiedTypeName name="io.cucumber.java.en.And"/>
+<fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Action"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="pages.QaClickAcademy"/>
+<fullyQualifiedTypeName name="StepDefinitions.QaClickValidation"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="driverSetUp.DriverSetUpForAll"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="pages.orangeHRM"/>
+<fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="PFPages.AdminPage"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+</qualifiedTypeNameHistroy>

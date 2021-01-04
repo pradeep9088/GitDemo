@@ -1,0 +1,11 @@
+package hashMapImplementation;
+
+public class HashMapMethodsDemo {
+	
+	@Test
+	public void hashMap_methods_Implementation()
+	{
+		
+	}
+
+}

@@ -1,0 +1,50 @@
+package StepDefinitions;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import PFPages.orangeHRMLogin;
+import POMpages.orangeHRM;
+import driverSetUp.ProjectPathSetUp;
+import io.cucumber.java.en.*;
+
+public class OrangeHRMSteps_PF {
+	
+	WebDriver driver=null;
+	orangeHRMLogin opf;
+	
+	@Given("user is on orange HRM application page")
+	public void user_is_on_orange_hrm_application_page() {
+		
+		ProjectPathSetUp dr= new ProjectPathSetUp();
+		dr.pathsetup();
+		driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+	    driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+	    
+	    driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
+	    driver.manage().window().maximize();
+	}
+	
+    @When("^enter (.+) and (.+)$")
+    public void enter_and(String username, String password){
+    	opf= new orangeHRMLogin(driver);
+    	
+    }
+
+	@When("user click on login button")
+	public void user_click_on_login_button() {
+		oh= new orangeHRM(driver);
+	    oh.user_click_on_login_button();
+	}
+
+	@Then("user should be logged in succesfully")
+	public void user_should_be_logged_in_succesfully() {
+		oh= new orangeHRM(driver);
+		System.out.println("the page title is :"+driver.getPageSource().contains("Admin"));
+	    
+	}
+
+}

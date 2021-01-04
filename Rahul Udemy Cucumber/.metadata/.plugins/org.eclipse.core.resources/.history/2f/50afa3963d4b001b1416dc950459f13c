@@ -1,0 +1,11 @@
+package stepDefinitions;
+
+public class Hooks {
+	
+	@After("@SmokeTest")
+	public void closeBrowser()
+	{
+		
+	}
+
+}

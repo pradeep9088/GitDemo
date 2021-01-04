@@ -1,0 +1,14 @@
+package PFPages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class HRMAdminPage {
+	
+	WebDriver driver;
+	public HRMAdminPage(WebDriver driver)
+	{
+		PageFactory.initElements(driver, this);
+	}
+
+}

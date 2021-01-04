@@ -1,0 +1,14 @@
+package StepDefinitions;
+
+import io.cucumber.java.en.Given;
+
+public class passDynamicXpath {
+	
+	//@Given("^I click on \"Yes\" radio button $")
+	public void I_click_on_radio_button(String No_text)
+	{
+		
+		
+	}
+
+}

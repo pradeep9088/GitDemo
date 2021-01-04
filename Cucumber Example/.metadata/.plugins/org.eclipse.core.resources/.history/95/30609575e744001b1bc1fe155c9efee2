@@ -1,0 +1,21 @@
+package pageFactoryPages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class OrangeHRMLogin {
+	
+	@FindBy(id="txtUsername")
+	WebElement txt_username;
+
+	@FindBy(id="txtPassword")
+	WebElement txt_password;
+	
+	@FindBy(id="btnLogin")
+	WebElement Login_Btn;
+	
+	public void userName(String username)
+	{
+		txt_username.sendKeys(username);
+	}
+}

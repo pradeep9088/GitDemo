@@ -1,0 +1,16 @@
+package hashMapImplementation;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+public class HashMapMethodsDemo {
+	
+	@Test
+	public void hashMap_methods_Implementation()
+	{
+		HashMap<String, String> hm= new HashMap<>();
+		
+	}
+
+}

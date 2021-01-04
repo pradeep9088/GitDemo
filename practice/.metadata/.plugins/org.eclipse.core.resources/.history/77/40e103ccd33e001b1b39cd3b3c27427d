@@ -1,0 +1,10 @@
+package mostFrequentStringQuestion;
+
+public class CompareString {
+	@Test
+	public void compTwoString()
+	{
+		
+	}
+
+}

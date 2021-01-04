@@ -1,0 +1,30 @@
+package mostFrequentStringQuestion;
+
+import java.util.LinkedHashSet;
+
+import org.testng.annotations.Test;
+
+public class removeDuplChar {
+
+	@Test
+	public void removeCharFromString()
+	{
+		String str="Fresh Fish";
+		int count=0;
+		for(int i=0;i<str.length();i++)
+		{
+			count=1;
+			for(int j=i+1;j<=str.length()-1;j++)
+			{
+				if(str.charAt(i)==str.charAt(j))
+				{
+					count++;
+				}
+			}
+			if(count>1)
+			{
+				str.replace(str.charAt(i), ' ');
+			}
+		}
+	}
+}

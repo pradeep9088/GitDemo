@@ -1,0 +1,24 @@
+package PFPages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class HRMAdminPage {
+	
+	@FindBy(linkText="applyLeave")
+	WebElement apply_leave_link;
+	
+	WebDriver driver;
+	public HRMAdminPage(WebDriver driver)
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void user_click_on_apply_Leave_Link()
+	{
+		apply_leave_link.click();
+	}
+
+}

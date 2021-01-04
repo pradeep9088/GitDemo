@@ -1,0 +1,26 @@
+package hashMapImplementation;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+public class IteratorOfHashMap {
+	
+	@Test
+	public void iterationOfHashMap()
+	{
+		HashMap<Integer, String> hm= new HashMap<Integer, String>();
+		hm.put(1, "Pradeep");
+		hm.put(2, "Raviranjan");
+		hm.put(3, "Navnit");
+		hm.put(4, "Sanjeev");
+		hm.put(5, "Sankalp");
+		System.out.println("Using hashMap with foreach and lambada expression :");
+		hm.forEach((roll,name)->System.out.println(roll+" --> "+name));
+		
+		System.out.println("Iterating Using hashMap with KeySet and lambada expression :");
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package PFPages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class orangeHRMLogin {
+	@FindBy(id="txtUsername")
+	WebElement text_username;
+	
+	@FindBy(id="txtPassword")
+	WebElement text_password;
+
+	@FindBy(id="btnLogin")
+	WebElement btn_Login;
+	
+	WebDriver driver;
+	public orangeHRMLogin(WebDriver driver)
+	{
+		this.driver=driver;
+		PageFactory.initElements(driver, orangeHRMLogin.class);
+	}
+	
+	
+}

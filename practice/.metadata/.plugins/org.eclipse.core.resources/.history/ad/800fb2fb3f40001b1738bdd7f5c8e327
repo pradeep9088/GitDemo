@@ -1,0 +1,69 @@
+package nehaAssessment;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import org.testng.annotations.Test;
+
+public class StringQuestion {
+
+	@Test
+	public void printLastChar()
+	{
+		String str="Kumar Pradeep";
+		System.out.println(str.substring(str.indexOf('d')));
+		System.out.println();
+		String str1="Fresh Fish";
+		int count;
+		for(int i=0;i<str1.length();i++)
+		{
+			count=1;
+			for(int j=i+1;j<=str1.length()-1;j++)
+			{
+				if(str1.charAt(i)==str1.charAt(j)&&str1.charAt(i)!=' ')
+				{
+					count++;
+				}
+			}
+			if(count>1&&str1.charAt(i)!=' ')
+			{
+				System.out.println(str1.charAt(i) +"- is repeated -"+count+" -times");
+			}
+		}
+	}
+
+	@Test
+	public void addToLastString()
+	{
+		ArrayList<String> ls=new ArrayList<String>(Arrays.asList("Potato","mutton","Chicken","Egg"));
+		ls.add("Fresh Fish");
+		System.out.println(ls);
+		String res=null;
+		int count;
+		System.out.println("Printing duplicate character of last string");
+		for(int i=0;i<ls.size();i++)
+		{
+			if(ls.get(i).contains("Fresh Fish"))
+			{
+				res=ls.get(i);
+			}
+		}
+
+		for(int j=0;j<res.length();j++)
+		{
+			count=1;
+			for(int k=j+1;k<=res.length()-1;k++)
+			{
+				if(res.charAt(j)==res.charAt(k)&&res.charAt(j)!=' ')
+				{
+					count++;
+				}
+			}
+
+			if(count>1&&res.charAt(j)!=' ')
+			{
+				System.out.println(res.charAt(j)+"- is repeated -"+count+" -times");
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package PFPages;
+
+import org.openqa.selenium.WebElement;
+
+public class AdminPage {
+	
+	
+
+	public WebElement validateTab(String tabName)
+	{
+		
+	}
+}

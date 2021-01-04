@@ -1,0 +1,28 @@
+package mostFrequentStringQuestion;
+
+import org.testng.annotations.Test;
+
+public class PrintDupChar {
+	@Test
+	public void printDuplicateCharacter()
+	{
+		String str="Fresh Fish";
+		int count;
+		for(int i=0;i<str.length();i++)
+		{
+			count=1;
+			for(int j=i+1;j<str.length();j++)
+			{
+				if(str.charAt(i)==str.charAt(j)&&str.charAt(i)!=' ')
+				{
+					count++;
+				}
+			}
+			if(count>1&&str.charAt(i)!==' ')
+			{
+				System.out.println(str.charAt(i));
+			}
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AutomationByCucumber/src/test/java/features/SpiceJetSignUp.feature&apos; to &apos;SpiceJetSearchFlight.feature&apos;" description="Rename resource &apos;SpiceJetSignUp.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/features/SpiceJetSignUp.feature" name="SpiceJetSearchFlight.feature" stamp="1606564319085" updateReferences="true"/>
+</session>

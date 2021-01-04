@@ -1,0 +1,17 @@
+package hashMapImplementation;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+public class HashMapMethodsDemo {
+	
+	@Test
+	public void hashMap_methods_Implementation()
+	{
+		HashMap<String, String> empDept= new HashMap<String, String>();
+		boolean empty=empDept.isEmpty();
+		System.out.println("Is employee department :- "+empty);
+	}
+
+}

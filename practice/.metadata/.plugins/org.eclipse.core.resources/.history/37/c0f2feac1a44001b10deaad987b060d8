@@ -1,0 +1,15 @@
+package hashMapImplementation;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+public class IteratorOfHashMap {
+	
+	@Test
+	public void iterationOfHashMap()
+	{
+		HashMap<Integer, String> hm= new HashMap<Integer, String>();
+	}
+
+}

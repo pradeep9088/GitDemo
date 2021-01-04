@@ -1,0 +1,14 @@
+package mostFrequentStringQuestion;
+
+import org.testng.annotations.Test;
+
+public class countMaxCharacter {
+	@Test
+	public void countMaxCharfromString()
+	{
+		String str="Java is my language";
+		
+		
+	}
+
+}

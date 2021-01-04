@@ -1,0 +1,16 @@
+package StepDefinitions;
+
+import org.openqa.selenium.By;
+
+import io.cucumber.java.en.Given;
+
+public class passDynamicXpath {
+	
+	//@Given("^I click on \"Yes\" radio button $")
+	public void I_click_on_radio_button(String yes_text)
+	{
+		driver.findElement(By.xpath("//input[@id='yesRadio']));
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package stepDefinations;
+
+import io.cucumber.java.en.Given;
+
+public class OrangeHRMSteps {
+
+	@Given("^user is on orange HRM application page$")
+	public void user_is_on_orange_hrm_application_page() throws Throwable {
+
+	}
+
+	@When("^enter (.+) and (.+)$")
+	public void enter_and(String username, String password) throws Throwable {
+
+	}
+
+	@When("^user click on login button$")
+	public void user_click_on_login_button() throws Throwable {
+
+	}
+
+	@Then("^user should be logged in succesfully$")
+	public void user_should_be_logged_in_succesfully() throws Throwable {
+
+	}
+
+}

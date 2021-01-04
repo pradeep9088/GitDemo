@@ -1,0 +1,21 @@
+package mostFrequentStringQuestion;
+
+import org.testng.annotations.Test;
+
+public class CompareString {
+	@Test
+	public void compTwoString()
+	{
+		String str1="Java language";
+		String str2="Java language";
+		if(str1.equalsIgnoreCase(str2))
+		{
+			System.out.println("String are same");
+		}
+		else
+		{
+			
+		}
+	}
+
+}

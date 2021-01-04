@@ -1,0 +1,29 @@
+package hashMapImplementation;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+public class HashMapMethodsDemo {
+	
+	@Test
+	public void hashMap_methods_Implementation()
+	{
+		HashMap<String, String> empDept= new HashMap<String, String>();
+		boolean empty=empDept.isEmpty();
+		System.out.println("Is employee department :- "+empty);
+		
+		empDept.put("pradeep", "Automation");
+		empDept.put("Manish", "functional");
+		empDept.put("Navnit", "Developer");
+		empDept.put("Afrin", "PMO");
+		
+		System.out.println("The size of the department is :"+empDept.size());
+		System.out.println("Pradeep department is :"+empDept.get("pradeep"));
+		System.out.println("Navnit department is :"+empDept.get("Navnit"));
+		
+		if(empDept.containsKey("Afrin"))
+			System.out.println("Afrin department is :"+empDept.get("Afrin"));
+	}
+
+}

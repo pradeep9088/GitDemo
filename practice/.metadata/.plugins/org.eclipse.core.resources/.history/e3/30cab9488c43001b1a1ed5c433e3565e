@@ -1,0 +1,32 @@
+package hashMapImplementation;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+public class NumberOfChar {
+	
+	@Test
+	public void find_number_of_character()
+	{
+		String string="FreshFish";
+		
+		HashMap<Character, Integer> hm= new HashMap<Character,Integer>();
+		
+		for(int i=0;i<string.length();i++)
+		{
+			Character c=string.charAt(i);
+			if(hm.containsKey(c))
+			{
+				int count=hm.get(c);
+				hm.put(c, count+1);
+			}
+			else 
+			{
+				hm.put(c, 1);
+			}
+		}
+		System.out.println("Normal Loop -"+hm);
+	}
+
+}
